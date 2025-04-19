@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Phiên bản JavaScript đầu ra
+    "module": "commonjs", // Hệ thống module sử dụng cho đầu ra
+    "lib": ["ES2020"], // Thư viện định nghĩa kiểu dữ liệu
+    "outDir": "./dist", // Thư mục đầu ra sau khi biên dịch
+    "rootDir": "./src", // Thư mục nguồn
+    "strict": true, // Bật tất cả các kiểm tra kiểu dữ liệu nghiêm ngặt
+    "esModuleInterop": true, // Cho phép tương tác với các module ES và CommonJS
+    "skipLibCheck": true, // Bỏ qua kiểm tra kiểu dữ liệu trong file định nghĩa
+    "forceConsistentCasingInFileNames": true, // Đảm bảo nhất quán về chữ hoa/thường trong tên file
+    "resolveJsonModule": true // Cho phép import file JSON
+  },
+  "include": ["src/**/*"], // Các files được bao gồm
+  "exclude": ["node_modules"] // Các files bị loại trừ
+}
